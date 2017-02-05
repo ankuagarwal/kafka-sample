@@ -24,10 +24,5 @@ Serializer class for Message Object
 
 
 `Mysql`
-DB Name: sample
+Run db-seed.sql
 
-CREATE TABLE `message` (
-  `id` varchar(11) NOT NULL DEFAULT '',
-  `value` varchar(11) NOT NULL DEFAULT '',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
